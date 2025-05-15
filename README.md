@@ -14,7 +14,6 @@ Este projeto é uma **API Web** utilizando **Spring Boot**, **Spring Security**,
 
 - **Spring Boot**: Framework para o desenvolvimento da API e servidor web.
 - **Spring Security**: Para implementação de autenticação e autorização.
-- **JWT**: Para autenticação baseada em token.
 - **PostgreSQL**: Banco de dados relacional para persistência dos dados.
 - **Spring Data JPA**: Para abstração de acesso ao banco de dados.
 - **Spring Web**: Para construção da API e interface web.
@@ -26,7 +25,7 @@ Este projeto é uma **API Web** utilizando **Spring Boot**, **Spring Security**,
 
 Certifique-se de que você tem o seguinte instalado:
 
-- **JDK 17 ou superior**.
+- **JAVA 21 ou superior**.
 - **Maven** (para gerenciamento de dependências).
 - **PostgreSQL** (para o banco de dados).
 - **IDE** (recomenda-se IntelliJ IDEA).
