@@ -2,26 +2,30 @@
 
 Este projeto é uma **API Web** utilizando **Spring Boot**, **Spring Security**, **PostgreSQL**, **Thymeleaf** e outras tecnologias. Ele permite o **CRUD** de **pacientes**, **médicos** e **autenticação de usuários**, com **interface gráfica** gerada pelo Thymeleaf.
 
-## Funcionalidades
+## ✨ Funcionalidades
 
-- **CRUD** de **pacientes** e **médicos** com interface web.
-- **Autenticação** com **Login**.
-- **Permissões de Usuários**: Acesso restrito com base no perfil de usuário.
-- **Envio de e-mails** para notificação ou recuperação de senha.
-- **Validação de campos** com **Bean Validation**.
+- 🩺 **CRUD completo** de Pacientes e Médicos
+- 📅 **Agendamento de consultas**
+- 🔐 **Autenticação e autorização** com Spring Security
+- 👥 **Permissões por perfil de usuário**
+- 📧 **Envio de e-mails** (ex: notificações, recuperação de senha)
+- ✅ **Validação de dados** com Bean Validation
+- 🖥️ **Interface web** renderizada com Thymeleaf
 
-## Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
-- **Spring Boot**: Framework para o desenvolvimento da API e servidor web.
-- **Spring Security**: Para implementação de autenticação e autorização.
-- **PostgreSQL**: Banco de dados relacional para persistência dos dados.
-- **Spring Data JPA**: Para abstração de acesso ao banco de dados.
-- **Spring Web**: Para construção da API e interface web.
-- **Spring Mail**: Para envio de e-mails.
-- **Thymeleaf**: Template engine para renderizar o frontend no servidor.
-- **Bean Validation**: Para validação de dados na API.
+- **Java 21**
+- **Spring Boot**
+- **Spring Web**
+- **Spring Data JPA**
+- **Spring Security**
+- **Spring Mail**
+- **PostgreSQL**
+- **Thymeleaf**
+- **Bean Validation**
+- **Maven**
 
-## Pré-requisitos
+## 🚀 Pré-requisitos
 
 Certifique-se de que você tem o seguinte instalado:
 
@@ -83,5 +87,10 @@ Para que o envio de e-mails funcione corretamente, é necessário utilizar um **
 
 - O sistema envia notificações e pode incluir funcionalidades como recuperação de senha.
 - Caso utilize um e-mail inválido ou fictício, o envio falhará e poderá gerar erros na aplicação.
+
+## 👤 Autor
+Desenvolvido por Raul Alves (Letch)
+Projeto de estudo e portfólio.
+  
 
 
